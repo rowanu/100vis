@@ -10,6 +10,7 @@ function render(data, selector) {
   });
 
   var margin = {top: 30, right: 30, bottom: 40, left: 50},
+    offset = 10,
     start = d3.min(data, function (d) { return d.datetime; }),
     end = d3.max(data, function (d) { return d.datetime; }),
     width = 960,
@@ -19,7 +20,7 @@ function render(data, selector) {
 
   var xScale = d3.time.scale()
     .domain([start, end])
-    .range([0, w]);
+    .range([offset, w - offset]);
 
   var xAxis = d3.svg.axis()
     .scale(xScale)
@@ -27,7 +28,7 @@ function render(data, selector) {
 
   var yScale = d3.scale.linear()
     .domain(d3.extent(data, function (d) { return d.average; }))
-    .range([h, 0]);
+    .range([h - offset, offset]);
 
   var yAxis = d3.svg.axis()
     .scale(yScale)
