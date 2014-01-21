@@ -79,7 +79,7 @@ function render(data, selector) {
       .call(yAxis);
 }
 
-d3.csv('data/australian_unemployed_by_sex_hundres_of_thousands.csv', function (err, data) {
+d3.csv('../data/australian_unemployed_by_sex_hundres_of_thousands.csv', function (err, data) {
   if (err) { console.error(err); }
   render(data, '#chart');
 });

@@ -93,8 +93,7 @@ function render(data, selector) {
       .on('mousemove', mousemove);
 }
 
-// d3.csv('https://api.bitcoinaverage.com/history/USD/per_minute_24h_sliding_window.csv', function (err, data) {
-d3.csv('/per_minute_24h_sliding_window.csv', function (err, data) {
+d3.csv('https://api.bitcoinaverage.com/history/USD/per_minute_24h_sliding_window.csv', function (err, data) {
   if (err) { console.error(err); }
   render(data, '#chart');
 });
