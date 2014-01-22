@@ -1,8 +1,8 @@
 /*jslint browser: true */
 /*globals d3, _ */
 
-var height = 960,
-  width = 500,
+var width = 960,
+  height = 500,
   radius = Math.min(width, height) / 2;
 
 var color = d3.scale.ordinal().range(['lightblue', 'lightpink']);
@@ -22,12 +22,12 @@ var svg = d3.select('#chart')
   .append('g')
     .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-d3.json('../data/repos.json', function (err, repos) {
+d3.json('https://api.github.com/users/rowanu/repos', function (err, repos) {
   if (err) { console.error(err); }
 
   var data = _.chain(repos).countBy('fork').pairs().map(function (d) {
     return {
-      type: d[0] === 'true' ? 'forked' : 'not forked',
+      type: d[0] === 'true' ? 'forked' : 'not-forked',
       count: d[1]
     };
   }).value();
