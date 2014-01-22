@@ -6,10 +6,9 @@ var height = 960,
   radius = Math.min(width, height) / 2;
 
 var color = d3.scale.ordinal().range(['lightblue', 'lightpink']);
-// var color = d3.scale.category10();
 
 var arc = d3.svg.arc()
-    .outerRadius(radius - 10)
+    .outerRadius(radius - 20)
     .innerRadius(radius - 100);
 
 var pie = d3.layout.pie()
@@ -33,10 +32,18 @@ d3.json('../data/repos.json', function (err, repos) {
     };
   }).value();
 
-  var path = svg.selectAll('path')
+  var g = svg.selectAll('.arc')
       .data(pie(data))
-    .enter().append('path')
-      .style('fill', function (d, i) { return color(i); })
-      .attr('d', arc)
+    .enter().append('g')
+      .attr('class', 'arc');
 
+  g.append('path')
+    .style('fill', function (d, i) { return color(i); })
+    .attr('d', arc);
+
+  g.append('text')
+    .attr('transform', function (d) { return 'translate(' + arc.centroid(d) + ')'; })
+    .attr('dy', '0.35em')
+    .attr('text-anchor', 'middle')
+    .text(function (d) { return d.data.type; });
 });
