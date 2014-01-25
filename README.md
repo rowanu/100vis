@@ -9,3 +9,7 @@ You can see descriptions for each visualization on [the blog](http://100vis.tumb
 
 You can contact and follow me [on Twitter](https://twitter.com/elrowan), and see my technical blog at [dashboarddude.com](http://dashboarddude.com).
 
+## Ideas
+
+* Use events/dispatch http://bl.ocks.org/mbostock/5872848
+* Resize points for 009 to show raw scores (ie. turn in to bubble chart)
