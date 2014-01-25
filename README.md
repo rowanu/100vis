@@ -11,5 +11,8 @@ You can contact and follow me [on Twitter](https://twitter.com/elrowan), and see
 
 ## Ideas
 
-* Use events/dispatch http://bl.ocks.org/mbostock/5872848
-* Resize points for 009 to show raw scores (ie. turn in to bubble chart)
+* Use events/dispatch http://bl.ocks.org/mbostock/5872848.
+
+### 2013 Canada East Regionals Women Rank
+* Resize points to show raw scores (ie. turn in to bubble chart).
+* Use colour to show athlete. Put events/overall rank on axes.
