@@ -1,0 +1,550 @@
+{
+  "collection1": [
+    {
+      "rankScore": "1 (9)",
+      "competitor": {
+        "text": "Camille Leblanc-Bazinet",
+        "href": "http://games.crossfit.com/athlete/8404"
+      },
+      "event01": "1 (06:28)",
+      "event02": "1 (200.10)",
+      "event03": "2 (06:41)",
+      "event04": "2 (25:24)",
+      "event05": "1 (03:54)",
+      "event06": "1 (08:08)",
+      "event07": "1 (04:08)"
+    },
+    {
+      "rankScore": "2 (15)",
+      "competitor": {
+        "text": "Michele Letendre",
+        "href": "http://games.crossfit.com/athlete/3407"
+      },
+      "event01": "2 (06:36)",
+      "event02": "2 (190.30)",
+      "event03": "1 (05:35)",
+      "event04": "1 (23:49)",
+      "event05": "5 (04:22)",
+      "event06": "2 (08:27)",
+      "event07": "2 (04:58)"
+    },
+    {
+      "rankScore": "3 (46)",
+      "competitor": {
+        "text": "Isabelle Tardif",
+        "href": "http://games.crossfit.com/athlete/33723"
+      },
+      "event01": "8 (07:22)",
+      "event02": "5 (180.10)",
+      "event03": "5 (07:05)",
+      "event04": "6 (25:46)",
+      "event05": "15T (05:30)",
+      "event06": "4 (12:38)",
+      "event07": "3 (05:32)"
+    },
+    {
+      "rankScore": "4 (53)",
+      "competitor": {
+        "text": "Jessica Cote-Beaudoin",
+        "href": "http://games.crossfit.com/athlete/3345"
+      },
+      "event01": "11 (07:34)",
+      "event02": "3 (185.20)",
+      "event03": "3 (07:02)",
+      "event04": "9 (25:55)",
+      "event05": "11 (05:12)",
+      "event06": "11 (14:10)",
+      "event07": "5T (05:48)"
+    },
+    {
+      "rankScore": "5 (58)",
+      "competitor": {
+        "text": "Alexandra Bergeron",
+        "href": "http://games.crossfit.com/athlete/51922"
+      },
+      "event01": "3 (06:58)",
+      "event02": "9T (160.30)",
+      "event03": "7 (07:07)",
+      "event04": "5 (25:45)",
+      "event05": "18 (05:37)",
+      "event06": "8 (13:48)",
+      "event07": "8 (06:07)"
+    },
+    {
+      "rankScore": "6 (58)",
+      "competitor": {
+        "text": "Renee Martin",
+        "href": "http://games.crossfit.com/athlete/25991"
+      },
+      "event01": "5 (07:14)",
+      "event02": "7T (165.10)",
+      "event03": "6 (07:06)",
+      "event04": "16 (26:10)",
+      "event05": "8T (04:49)",
+      "event06": "9 (13:54)",
+      "event07": "7 (05:49)"
+    },
+    {
+      "rankScore": "7 (66)",
+      "competitor": {
+        "text": "Tina Popp",
+        "href": "http://games.crossfit.com/athlete/21863"
+      },
+      "event01": "6 (07:19)",
+      "event02": "11T (160.10)",
+      "event03": "28T (07:20)",
+      "event04": "8 (25:54)",
+      "event05": "6 (04:25)",
+      "event06": "3 (12:23)",
+      "event07": "4 (05:45)"
+    },
+    {
+      "rankScore": "8 (96)",
+      "competitor": {
+        "text": "Kendra Johnsen",
+        "href": "http://games.crossfit.com/athlete/3868"
+      },
+      "event01": "20T (07:54)",
+      "event02": "4 (180.30)",
+      "event03": "24T (07:17)",
+      "event04": "23 (26:23)",
+      "event05": "3 (04:15)",
+      "event06": "7 (13:29)",
+      "event07": "15 (07:05)"
+    },
+    {
+      "rankScore": "9 (110)",
+      "competitor": {
+        "text": "Lacey Van Der Marel",
+        "href": "http://games.crossfit.com/athlete/22168"
+      },
+      "event01": "26 (08:13)",
+      "event02": "13T (155.30)",
+      "event03": "4 (07:04)",
+      "event04": "13T (26:06)",
+      "event05": "35 (08:19)",
+      "event06": "5 (12:57)",
+      "event07": "14 (06:54)"
+    },
+    {
+      "rankScore": "10 (110)",
+      "competitor": {
+        "text": "Perry Hanlon",
+        "href": "http://games.crossfit.com/athlete/46130"
+      },
+      "event01": "12 (07:35)",
+      "event02": "22T (140.20)",
+      "event03": "17T (07:16)",
+      "event04": "13T (26:06)",
+      "event05": "8T (04:49)",
+      "event06": "25 (15:11)",
+      "event07": "13 (06:45)"
+    },
+    {
+      "rankScore": "11 (112)",
+      "competitor": {
+        "text": "Ashley Werner",
+        "href": "http://games.crossfit.com/athlete/2813"
+      },
+      "event01": "4 (07:07)",
+      "event02": "31T (130.30)",
+      "event03": "9T (07:09)",
+      "event04": "4 (25:41)",
+      "event05": "19T (05:42)",
+      "event06": "24 (15:10)",
+      "event07": "21 (08:05)"
+    },
+    {
+      "rankScore": "12 (113)",
+      "competitor": {
+        "text": "Rachel Leblanc-Bazinet",
+        "href": "http://games.crossfit.com/athlete/47339"
+      },
+      "event01": "28 (08:22)",
+      "event02": "6 (165.30)",
+      "event03": "8 (07:08)",
+      "event04": "13T (26:06)",
+      "event05": "32 (08:03)",
+      "event06": "10 (14:01)",
+      "event07": "16 (07:07)"
+    },
+    {
+      "rankScore": "13 (114)",
+      "competitor": {
+        "text": "Jennifer Lymburner",
+        "href": "http://games.crossfit.com/athlete/19727"
+      },
+      "event01": "13 (07:39)",
+      "event02": "17 (145.20)",
+      "event03": "9T (07:09)",
+      "event04": "3 (25:38)",
+      "event05": "33 (08:14)",
+      "event06": "6 (13:01)",
+      "event07": "33T (10:12)"
+    },
+    {
+      "rankScore": "14 (115)",
+      "competitor": {
+        "text": "Julie Villeneuve",
+        "href": "http://games.crossfit.com/athlete/77346"
+      },
+      "event01": "22 (07:55)",
+      "event02": "9T (160.30)",
+      "event03": "35T (07:26)",
+      "event04": "18T (26:14)",
+      "event05": "13 (05:20)",
+      "event06": "13 (14:56)",
+      "event07": "5T (05:48)"
+    },
+    {
+      "rankScore": "15 (119)",
+      "competitor": {
+        "text": "Raquel Rodriguez",
+        "href": "http://games.crossfit.com/athlete/3416"
+      },
+      "event01": "20T (07:54)",
+      "event02": "11T (160.10)",
+      "event03": "17T (07:16)",
+      "event04": "24T (26:25)",
+      "event05": "21 (05:43)",
+      "event06": "14T (15:01)",
+      "event07": "12 (06:27)"
+    },
+    {
+      "rankScore": "16 (122)",
+      "competitor": {
+        "text": "Kathleen Laperle",
+        "href": "http://games.crossfit.com/athlete/128840"
+      },
+      "event01": "15 (07:43)",
+      "event02": "19T (140.30)",
+      "event03": "28T (07:20)",
+      "event04": "10 (25:59)",
+      "event05": "17 (05:31)",
+      "event06": "23 (15:05)",
+      "event07": "10 (06:17)"
+    },
+    {
+      "rankScore": "17 (134)",
+      "competitor": {
+        "text": "Christine Kluge",
+        "href": "http://games.crossfit.com/athlete/6905"
+      },
+      "event01": "9 (07:26)",
+      "event02": "24T (140.10)",
+      "event03": "13T (07:13)",
+      "event04": "27 (26:30)",
+      "event05": "7 (04:44)",
+      "event06": "34 (15:35)",
+      "event07": "20 (07:41)"
+    },
+    {
+      "rankScore": "18 (138)",
+      "competitor": {
+        "text": "Ashley Smith",
+        "href": "http://games.crossfit.com/athlete/92814"
+      },
+      "event01": "14 (07:41)",
+      "event02": "16 (145.30)",
+      "event03": "13T (07:13)",
+      "event04": "17 (26:11)",
+      "event05": "30 (07:20)",
+      "event06": "26 (15:12)",
+      "event07": "22 (08:06)"
+    },
+    {
+      "rankScore": "19 (142)",
+      "competitor": {
+        "text": "Stephanie Roy",
+        "href": "http://games.crossfit.com/athlete/15182"
+      },
+      "event01": "31T (08:32)",
+      "event02": "19T (140.30)",
+      "event03": "32 (07:21)",
+      "event04": "21 (26:21)",
+      "event05": "8T (04:49)",
+      "event06": "14T (15:01)",
+      "event07": "17 (07:16)"
+    },
+    {
+      "rankScore": "20 (143)",
+      "competitor": {
+        "text": "Tina Balfe",
+        "href": "http://games.crossfit.com/athlete/15404"
+      },
+      "event01": "23 (07:57)",
+      "event02": "36 (115.20)",
+      "event03": "12 (07:11)",
+      "event04": "11 (26:01)",
+      "event05": "15T (05:30)",
+      "event06": "37 (16:16)",
+      "event07": "9 (06:14)"
+    },
+    {
+      "rankScore": "21 (147)",
+      "competitor": {
+        "text": "Jennifer Broxterman",
+        "href": "http://games.crossfit.com/athlete/2366"
+      },
+      "event01": "7 (07:21)",
+      "event02": "26T (135.30)",
+      "event03": "17T (07:16)",
+      "event04": "7 (25:52)",
+      "event05": "26 (06:20)",
+      "event06": "27 (15:15)",
+      "event07": "37 (10:16)"
+    },
+    {
+      "rankScore": "22 (147)",
+      "competitor": {
+        "text": "alexandra castonguay",
+        "href": "http://games.crossfit.com/athlete/12411"
+      },
+      "event01": "27 (08:17)",
+      "event02": "13T (155.30)",
+      "event03": "11 (07:10)",
+      "event04": "20 (26:19)",
+      "event05": "37 (08:51)",
+      "event06": "12 (14:41)",
+      "event07": "27 (10:04)"
+    },
+    {
+      "rankScore": "23 (153)",
+      "competitor": {
+        "text": "Sacha Adkins",
+        "href": "http://games.crossfit.com/athlete/7074"
+      },
+      "event01": "24 (08:00)",
+      "event02": "7T (165.10)",
+      "event03": "28T (07:20)",
+      "event04": "12 (26:03)",
+      "event05": "28 (06:50)",
+      "event06": "19T (15:03)",
+      "event07": "35 (10:13)"
+    },
+    {
+      "rankScore": "24 (158)",
+      "competitor": {
+        "text": "Andi Sadowski",
+        "href": "http://games.crossfit.com/athlete/103104"
+      },
+      "event01": "25 (08:05)",
+      "event02": "33T (130.20)",
+      "event03": "16 (07:14)",
+      "event04": "22 (26:22)",
+      "event05": "22 (05:54)",
+      "event06": "22 (15:04)",
+      "event07": "18 (07:24)"
+    },
+    {
+      "rankScore": "25 (163)",
+      "competitor": {
+        "text": "Belinda Cox",
+        "href": "http://games.crossfit.com/athlete/5835"
+      },
+      "event01": "10 (07:28)",
+      "event02": "28T (135.10)",
+      "event03": "34 (07:24)",
+      "event04": "28T (26:34)",
+      "event05": "24 (06:09)",
+      "event06": "14T (15:01)",
+      "event07": "25 (09:32)"
+    },
+    {
+      "rankScore": "26 (168)",
+      "competitor": {
+        "text": "Carol-Ann Reason-Thibault",
+        "href": "http://games.crossfit.com/athlete/103389"
+      },
+      "event01": "19 (07:52)",
+      "event02": "13T (155.30)",
+      "event03": "37 (07:27)",
+      "event04": "26 (26:29)",
+      "event05": "2 (04:00)",
+      "event06": "35 (15:50)",
+      "event07": "36 (10:15)"
+    },
+    {
+      "rankScore": "27 (169)",
+      "competitor": {
+        "text": "Heather Wood",
+        "href": "http://games.crossfit.com/athlete/37629"
+      },
+      "event01": "31T (08:32)",
+      "event02": "28T (135.10)",
+      "event03": "26T (07:19)",
+      "event04": "24T (26:25)",
+      "event05": "23 (06:05)",
+      "event06": "18 (15:02)",
+      "event07": "19 (07:29)"
+    },
+    {
+      "rankScore": "28 (170)",
+      "competitor": {
+        "text": "Lisa Kham",
+        "href": "http://games.crossfit.com/athlete/26739"
+      },
+      "event01": "29 (08:25)",
+      "event02": "18 (145.10)",
+      "event03": "17T (07:16)",
+      "event04": "18T (26:14)",
+      "event05": "36 (08:35)",
+      "event06": "19T (15:03)",
+      "event07": "33T (10:12)"
+    },
+    {
+      "rankScore": "29 (173)",
+      "competitor": {
+        "text": "Joannie Lebrun",
+        "href": "http://games.crossfit.com/athlete/100316"
+      },
+      "event01": "36 (08:48)",
+      "event02": "28T (135.10)",
+      "event03": "17T (07:16)",
+      "event04": "28T (26:34)",
+      "event05": "4 (04:20)",
+      "event06": "31 (15:23)",
+      "event07": "29T (10:07)"
+    },
+    {
+      "rankScore": "30 (176)",
+      "competitor": {
+        "text": "Melissa Faichuk",
+        "href": "http://games.crossfit.com/athlete/76102"
+      },
+      "event01": "17T (07:47)",
+      "event02": "37 (105.30)",
+      "event03": "28T (07:20)",
+      "event04": "32 (26:41)",
+      "event05": "19T (05:42)",
+      "event06": "32 (15:24)",
+      "event07": "11 (06:20)"
+    },
+    {
+      "rankScore": "31 (183)",
+      "competitor": {
+        "text": "caroline bedard",
+        "href": "http://games.crossfit.com/athlete/7609"
+      },
+      "event01": "38 (08:52)",
+      "event02": "24T (140.10)",
+      "event03": "17T (07:16)",
+      "event04": "31 (26:39)",
+      "event05": "31 (07:36)",
+      "event06": "14T (15:01)",
+      "event07": "28 (10:06)"
+    },
+    {
+      "rankScore": "32 (184)",
+      "competitor": {
+        "text": "Tiffany Dicks",
+        "href": "http://games.crossfit.com/athlete/13144"
+      },
+      "event01": "34 (08:43)",
+      "event02": "22T (140.20)",
+      "event03": "26T (07:19)",
+      "event04": "36 (27:27)",
+      "event05": "12 (05:13)",
+      "event06": "30 (15:21)",
+      "event07": "24 (09:24)"
+    },
+    {
+      "rankScore": "33 (187)",
+      "competitor": {
+        "text": "Kristine Hatfield",
+        "href": "http://games.crossfit.com/athlete/7948"
+      },
+      "event01": "37 (08:51)",
+      "event02": "31T (130.30)",
+      "event03": "13T (07:13)",
+      "event04": "30 (26:36)",
+      "event05": "25 (06:11)",
+      "event06": "28 (15:16)",
+      "event07": "23 (08:31)"
+    },
+    {
+      "rankScore": "34 (187)",
+      "competitor": {
+        "text": "Becki Couling",
+        "href": "http://games.crossfit.com/athlete/54542"
+      },
+      "event01": "16 (07:44)",
+      "event02": "26T (135.30)",
+      "event03": "33 (07:22)",
+      "event04": "33 (26:50)",
+      "event05": "14 (05:25)",
+      "event06": "33 (15:26)",
+      "event07": "32 (10:09)"
+    },
+    {
+      "rankScore": "35 (188)",
+      "competitor": {
+        "text": "Danielle Goldman",
+        "href": "http://games.crossfit.com/athlete/116886"
+      },
+      "event01": "35 (08:47)",
+      "event02": "19T (140.30)",
+      "event03": "17T (07:16)",
+      "event04": "35 (27:14)",
+      "event05": "34 (08:18)",
+      "event06": "19T (15:03)",
+      "event07": "29T (10:07)"
+    },
+    {
+      "rankScore": "36 (205)",
+      "competitor": {
+        "text": "Kristi Hrivnak",
+        "href": "http://games.crossfit.com/athlete/33792"
+      },
+      "event01": "30 (08:27)",
+      "event02": "33T (130.20)",
+      "event03": "24T (07:17)",
+      "event04": "34 (26:54)",
+      "event05": "29 (06:58)",
+      "event06": "29 (15:19)",
+      "event07": "26 (09:33)"
+    },
+    {
+      "rankScore": "37 (238)",
+      "competitor": {
+        "text": "Nikki Eckebrecht",
+        "href": "http://games.crossfit.com/athlete/39339"
+      },
+      "event01": "39 (10:03)",
+      "event02": "35 (115.30)",
+      "event03": "35T (07:26)",
+      "event04": "37 (28:34)",
+      "event05": "27 (06:21)",
+      "event06": "36 (16:01)",
+      "event07": "29T (10:07)"
+    },
+    {
+      "rankScore": "38 (DNF)",
+      "competitor": {
+        "text": "Amélie Gagnon",
+        "href": "http://games.crossfit.com/athlete/11618"
+      },
+      "event01": "17T (07:47)",
+      "event02": "DNF",
+      "event03": "DNF",
+      "event04": "DNF",
+      "event05": "DNF",
+      "event06": "DNF",
+      "event07": "DNF"
+    },
+    {
+      "rankScore": "39 (DNF)",
+      "competitor": {
+        "text": "Annick Paquet",
+        "href": "http://games.crossfit.com/athlete/50784"
+      },
+      "event01": "33 (08:38)",
+      "event02": "DNF",
+      "event03": "DNF",
+      "event04": "DNF",
+      "event05": "DNF",
+      "event06": "DNF",
+      "event07": "DNF"
+    }
+  ]
+}

@@ -53,7 +53,6 @@ d3.json('../data/2013-regionals-canada-east-women.json', function (err, response
 
   y.domain(_.chain(data).pluck('name').sort().reverse().value());
   x.domain(d3.extent(data, function (d) { return d.rank; })).nice();
-  // console.log(data);
   
   svg.append('g')
     .attr('class', 'x axis')
