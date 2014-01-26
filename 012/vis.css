@@ -44,6 +44,8 @@ ol li {
   shape-rendering: crispEdges;
 }
 
-.dot {
-  stroke: #000;
+.bar {
+  fill: mediumaquamarine;
+  stroke: black;
+  shape-rendering: crispEdges;
 }

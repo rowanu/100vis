@@ -52,7 +52,7 @@ var xAxis = d3.svg.axis()
     .orient('top');
 
 var y = d3.scale.ordinal()
-    .rangePoints([height, 0], 2);
+    .rangeRoundBands([height, 0]);
 
 var yAxis = d3.svg.axis()
     .scale(y)
@@ -69,7 +69,6 @@ svg.append('g')
 
 svg.append('g')
   .attr('class', 'x axis');
-  // .attr('transform', 'translate(0,' + height + ')');
 
 function update(data, show) {
   show = show || 'overall';
@@ -84,6 +83,24 @@ function update(data, show) {
     .transition()
       .duration(duration)
       .call(yAxis);
+
+
+  var bars = svg.selectAll('rect.bar')
+      .data(data);
+
+  bars.enter().append('rect')
+    .attr('class', 'bar')
+    .attr('x', 0)
+    .attr('y', function (d) { return y(d.name); })
+    .attr('width', function (d) { return x(d[show].score); })
+    .attr('height', y.rangeBand());
+
+  bars.attr('class', 'bar')
+    .transition()
+      .duration(duration)
+      .attr('y', function (d) { return y(d.name); })
+      .attr('width', function (d) { console.log('ohai ' + show); return x(d[show].score); })
+      ;
 }
 
 d3.json('../data/2013-regionals-canada-east-women.json', function (err, response) {
