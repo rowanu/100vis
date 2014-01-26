@@ -31,11 +31,15 @@ var xAxis = d3.svg.axis()
     .orient('bottom');
 
 var y = d3.scale.ordinal()
-    .rangePoints([height, 0], 1);
+    .rangePoints([height, 0], 2);
 
 var yAxis = d3.svg.axis()
     .scale(y)
     .orient('left');
+
+// Size of points
+var z = d3.scale.linear()
+    .range([20, 1]);
 
 var svg = d3.select('#container').append('svg')
     .attr('width', fullWidth)
@@ -43,20 +47,20 @@ var svg = d3.select('#container').append('svg')
   .append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
+// TODO: Change name by colour?
 svg.append('g')
   .attr('class', 'y axis');
 
 svg.append('g')
   .attr('class', 'x axis')
-  .attr('transform', 'translate(0,' + height + ')');
+  .attr('transform', 'translate(10,' + height + ')');
 
 function update(data, sortBy) {
   sortBy = sortBy || 'name';
-  y.domain(_.chain(data).sortBy(sortBy).pluck('name').reverse().value());
   x.domain(d3.extent(data, function (d) { return d.rank; })).nice();
+  y.domain(_.chain(data).sortBy(sortBy).pluck('name').reverse().value());
+  z.domain(d3.extent(data, function (d) { return d.score; })).nice();
   
-  // TODO: Transition instead of removing
-  // d3.selectAll('.axis').remove();
   svg.select('g.x.axis')
     .call(xAxis);
   svg.select('g.y.axis')
@@ -69,9 +73,9 @@ function update(data, sortBy) {
 
   dots.enter().append('circle')
     .attr('class', 'dot')
-    .attr('r', 3.5)
     .attr('cx', function (d) { return x(d.rank); })
     .attr('cy', function (d) { return y(d.name); })
+    .attr('r', function (d) { return z(d.score); })
     .style('fill', function (d) { return colour(d.name); });
 
   dots.attr('class', 'dot')
