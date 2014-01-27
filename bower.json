@@ -1,0 +1,22 @@
+{
+  "name": "100vis",
+  "version": "1.0.0",
+  "homepage": "http://rowanu.github.io/100vis/",
+  "authors": [
+    "rowan <rowanu@gmail.com>"
+  ],
+  "description": "100 days of D3.js visualizations.",
+  "main": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "topojson": "~1.4.6"
+  }
+}
