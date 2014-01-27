@@ -36,19 +36,6 @@ ol li {
   text-align: center;
 }
 
-#chart {
-  width: 960px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#chart .line {
-  fill: none;
-  stroke: peru;
-  stroke-width: 1px;
-}
-
 .axis path,
 .axis line {
   fill: none;
