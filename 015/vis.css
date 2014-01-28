@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Courier, "Courier New", monospace;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  text-align: left;
+  margin: 0.5em 0;
+}
+
+ol li {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+#container {
+  padding: 1em;
+  width: 1020px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.treemap {
+  margin-left: 2.2em;
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
