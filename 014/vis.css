@@ -53,3 +53,11 @@ path {
   stroke: red;
   stroke-width: 3px;
 }
+
+.bar {
+  fill: steelblue;
+  stroke: white;
+  stroke-wdith: 1px;
+  opacity: 0.5;
+  shape-rendering: crispEdges;
+}
