@@ -3,10 +3,9 @@
 var width = 960,
   height = 500;
 
+var colour = d3.scale.category20();
+
 var projection = d3.geo.mercator()
-  // TODO: Check
-  // .center([0, 5])
-  // .scale(900)
   .rotate([-180, 0]);
   
 var svg = d3.select('#container').append('svg')
@@ -20,22 +19,13 @@ var g = svg.append('g');
 
 d3.json('world-110m2.json', function (err, topology) {
   if (err) { console.error(err); }
+  var countries = topojson.feature(topology, topology.objects.countries).features,
+    neighbours = topojson.neighbors(topology.objects.countries.geometries);
   g.selectAll('path')
-    .data(topojson.feature(topology, topology.objects.countries).features)
+    .data(countries)
   .enter()
     .append('path')
-    .attr('d', path);
+    .attr('d', path)
+    // This assigns a colour to a country, or sets it if it doesn't have one
+    .style('fill', function (d, i) { return colour(d.colour = d3.max(neighbours[i], function (n) { return countries[n].colour; }) + 1 | 0); });
 });
-
-var zoom = d3.behavior.zoom()
-.on('zoom', function () {
-  console.log('zoom!');
-  console.log(d3.event.translate);
-  console.log(d3.event.scale);
-  g.attr('transform', 'translate(' + d3.event.translate.join(',') +
-         ') scale(' + d3.event.scale + ')');
-  g.selectAll('path')
-    .attr('d', path.projection(projection));
-});
-
-svg.call(zoom);
