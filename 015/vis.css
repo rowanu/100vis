@@ -42,8 +42,7 @@ ol li {
 
 .node {
   border: solid 1px white;
-  font: 10px sans-serif;
-  line-height: 12px;
+  font: 1em sans-serif;
   overflow: hidden;
   position: absolute;
   text-indent: 2px;
