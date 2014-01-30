@@ -4,8 +4,7 @@
   "description": "100 days of D3.js visualizations.",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-connect": "~0.6.0",
-    "grunt-shell": "~0.6.4"
+    "grunt-contrib-connect": "~0.6.0"
   },
   "repository": {
     "type": "git",
