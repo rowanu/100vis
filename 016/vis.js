@@ -23,8 +23,7 @@ var svg = d3.select('#chart')
   .append('g')
     .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-d3.json('../data/repos.json', function (err, repos) {
-// d3.json('https://api.github.com/users/rowanu/repos', function (err, repos) {
+d3.json('https://api.github.com/users/rowanu/repos', function (err, repos) {
   if (err) { console.error(err); }
 
   var data = _.chain(repos).countBy('fork').pairs().map(function (d) {
