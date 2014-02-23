@@ -1,0 +1,13 @@
+[
+  {
+    "name": "early morning",
+    "start": {
+      "hours": 0,
+      "minutes": 0
+    },
+    "end": {
+      "hours": 8,
+      "minutes": 30
+    }
+  }
+]
