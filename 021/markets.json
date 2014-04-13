@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ASX",
+    "sessions": [
+      {"status": "open", "start": "10:00", "duration": "06:00"}
+    ]
+  },
+  {
+    "name": "SGX",
+    "sessions": [
+      {"status": "open", "start": "09:00", "duration": "03:30"},
+      {"status": "open", "start": "14:00", "duration": "03:00"}
+    ]
+  },
+  {
+    "name": "OSE",
+    "sessions": [
+      {"status": "open", "start": "09:00", "duration": "06:10"},
+      {"status": "closing", "start": "15:10", "duration": "00:05"}
+    ]
+  }
+]
